@@ -1,0 +1,9 @@
+#! /usr/bin/env node
+
+const program = require('commander')
+const initProject = require('../src/project')
+const { configProject } = require('../src/config')
+
+const prompts = configProject(program)
+
+initProject(prompts)

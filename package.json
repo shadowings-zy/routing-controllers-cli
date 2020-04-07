@@ -1,0 +1,24 @@
+{
+  "name": "routing-controllers-cli",
+  "version": "0.0.3",
+  "description": "A cli for making routing-controllers template project",
+  "repository": "shadowings-zy/routing-controllers-cli",
+  "license": "MIT",
+  "keywords": [
+    "routing-controllers",
+    "cli"
+  ],
+  "author": "shadowings-zy",
+  "bin": {
+    "routing-controllers-cli": "bin/cli"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "copy-dir": "^1.2.0",
+    "fs-extra": "^8.0.1",
+    "inquirer": "^6.3.1",
+    "jsonfile": "^6.0.1",
+    "ora": "^3.4.0"
+  }
+}

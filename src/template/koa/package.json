@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "class-transformer": "^0.2.3",
+    "class-validator": "^0.11.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8",
+    "reflect-metadata": "^0.1.13",
+    "routing-controllers": "^0.8.1-alpha.2",
+    "typedi": "^0.8.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.3",
+    "@types/node": "^13.11.0",
+    "nodemon": "^2.0.2",
+    "tsc-watch": "^4.2.3",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "start": "tsc && tsc-watch --onSuccess \"nodemon ./build/app.js\""
+  }
+}
